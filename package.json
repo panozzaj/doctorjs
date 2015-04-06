@@ -47,9 +47,9 @@
     "directories": [ "bin", "lib", "test" ],
     "implements": [ "CommonJS/Modules/1.0" ],
     "scripts": {
-        "install": "install.js",
-        "serve": "serve.js",
-        "uninstall": "uninstall.js"
+        "install": "make install",
+        "serve": "make serve",
+        "uninstall": "make uninstall"
     }
 }
 
