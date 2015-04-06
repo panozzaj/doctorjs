@@ -47,7 +47,8 @@
     "directories": [ "bin", "lib", "test" ],
     "implements": [ "CommonJS/Modules/1.0" ],
     "scripts": {
-        "install": "make install",
+        "preinstall": "git submodule update --init --recursive",
+        "postinstall": "make install",
         "serve": "make serve",
         "uninstall": "make uninstall"
     }
